@@ -1,4 +1,4 @@
-# BlueWhiteRedTemplate
-https://derekverbrugge.github.io/BlueWhiteRedTemplate/
+# OnePageWebsiteTemplates
+https://derekverbrugge.github.io/OnePageWebsiteTemplates
 
 Made with Figma Make.
