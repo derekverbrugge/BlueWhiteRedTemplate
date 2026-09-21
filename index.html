@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub Templates</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div id="site-header"></div>
+
+    <main class="main-content">
+      <section class="hero">
+        <p class="hero-eyebrow">Open Source</p>
+        <h1 class="hero-title">Starter Templates</h1>
+        <p class="hero-body">
+          Production-ready project starters — fork, clone, and build.
+          Every template is maintained and freely available on GitHub.
+        </p>
+      </section>
+
+      <section class="cards-section">
+        <div class="cards-grid" id="cards-grid">
+
+          <!-- Row 1 — always visible -->
+          <a class="card" href="https://github.com/yourusername/react-vite-template" target="_blank" rel="noopener">
+            <div class="card-icon">⚡</div>
+            <h2 class="card-title">React + Vite</h2>
+            <p class="card-desc">Minimal React 19 starter with Vite, TypeScript, and Tailwind CSS v4. Zero opinions, maximum speed.</p>
+            <span class="card-tag">Frontend</span>
+          </a>
+
+          <a class="card" href="https://github.com/yourusername/nextjs-template" target="_blank" rel="noopener">
+            <div class="card-icon">▲</div>
+            <h2 class="card-title">Next.js App Router</h2>
+            <p class="card-desc">Next.js 15 with App Router, TypeScript, Tailwind, and sensible ESLint defaults pre-configured.</p>
+            <span class="card-tag">Fullstack</span>
+          </a>
+
+          <a class="card" href="https://github.com/yourusername/express-api-template" target="_blank" rel="noopener">
+            <div class="card-icon">🛤️</div>
+            <h2 class="card-title">Express REST API</h2>
+            <p class="card-desc">Node.js + Express API starter with JWT auth, Zod validation, and a clean layered architecture.</p>
+            <span class="card-tag">Backend</span>
+          </a>
+
+          <!-- Row 2 — hidden until "More" is clicked -->
+          <a class="card card-hidden" href="https://github.com/yourusername/python-fastapi-template" target="_blank" rel="noopener">
+            <div class="card-icon">🐍</div>
+            <h2 class="card-title">FastAPI + Pydantic</h2>
+            <p class="card-desc">Python API starter with FastAPI, Pydantic v2, SQLAlchemy 2, and pytest wired up out of the box.</p>
+            <span class="card-tag">Backend</span>
+          </a>
+
+          <a class="card card-hidden" href="https://github.com/yourusername/cli-tool-template" target="_blank" rel="noopener">
+            <div class="card-icon">🖥️</div>
+            <h2 class="card-title">Node CLI Tool</h2>
+            <p class="card-desc">Command-line tool scaffold with Commander.js, Inquirer, chalk, and a publish-ready package.json.</p>
+            <span class="card-tag">Tooling</span>
+          </a>
+
+          <a class="card card-hidden" href="https://github.com/yourusername/docker-compose-template" target="_blank" rel="noopener">
+            <div class="card-icon">🐳</div>
+            <h2 class="card-title">Docker Compose Stack</h2>
+            <p class="card-desc">Multi-service compose setup with Nginx, Postgres, and Redis — ready for local dev and staging.</p>
+            <span class="card-tag">DevOps</span>
+          </a>
+
+        </div>
+
+        <div class="more-row">
+          <button class="more-btn" id="more-btn" aria-expanded="false">
+            <span class="more-btn-label">Show More Templates</span>
+            <svg class="more-btn-arrow" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+              <path d="M8 3v10M3 8l5 5 5-5" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <div id="site-footer"></div>
+
+  </body>
+</html>
